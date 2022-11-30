@@ -21,7 +21,16 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <store.pojo.version>0.0.1-SNAPSHOT</store.pojo.version>
+        <store.dao.version>0.0.1-SNAPSHOT</store.dao.version>
+        <store.service.version>0.0.1-SNAPSHOT</store.service.version>
+        <store.web.version>0.0.1-SNAPSHOT</store.web.version>
+        <mybatisplus.version>3.5.2</mybatisplus.version>
+        <mybatisplus.generator.version>3.5.3</mybatisplus.generator.version>
+        <velocity.version>2.3</velocity.version>
+        <druid.version>1.2.15</druid.version>
     </properties>
+
 
     <modules>
         <module>store_pojo</module>
@@ -36,49 +45,49 @@
             <dependency>
                 <groupId>org.yd</groupId>
                 <artifactId>store_pojo</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${store.pojo.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.yd</groupId>
                 <artifactId>store_dao</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${store.dao.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.yd</groupId>
                 <artifactId>store_service</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${store.service.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.yd</groupId>
                 <artifactId>store_web</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${store.web.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>3.5.2</version>
+                <version>${mybatisplus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
-                <version>3.5.3</version>
+                <version>${mybatisplus.generator.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.velocity</groupId>
                 <artifactId>velocity-engine-core</artifactId>
-                <version>2.3</version>
+                <version>${velocity.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
-                <version>1.2.15</version>
+                <version>${druid.version}</version>
             </dependency>
 
         </dependencies>
