@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="store_web" />
+        <module name="store_dao" />
+        <module name="store_pojo" />
+        <module name="store_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Store" target="17" />
+      <module name="store_dao" target="17" />
+      <module name="store_pojo" target="17" />
+      <module name="store_service" target="17" />
+      <module name="store_web" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Store" options="" />
+      <module name="store_dao" options="-parameters" />
+      <module name="store_pojo" options="-parameters" />
+      <module name="store_service" options="-parameters" />
+      <module name="store_web" options="-parameters" />
+    </option>
+  </component>
+</project>
