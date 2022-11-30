@@ -19,6 +19,7 @@
 
     <packaging>pom</packaging>
 
+    <!--集中版本管理-->
     <properties>
         <java.version>1.8</java.version>
         <store.pojo.version>0.0.1-SNAPSHOT</store.pojo.version>
@@ -31,7 +32,7 @@
         <druid.version>1.2.15</druid.version>
     </properties>
 
-
+    <!--模块划分-->
     <modules>
         <module>store_pojo</module>
         <module>store_dao</module>
@@ -39,6 +40,7 @@
         <module>store_web</module>
     </modules>
 
+    <!--集中依赖管理-->
     <dependencyManagement>
         <dependencies>
 
