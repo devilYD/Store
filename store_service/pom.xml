@@ -22,6 +22,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.yd</groupId>
+            <artifactId>store_dao</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>

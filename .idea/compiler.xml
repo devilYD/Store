@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Store" target="17" />
-      <module name="store_dao" target="17" />
-      <module name="store_pojo" target="17" />
-      <module name="store_service" target="17" />
-      <module name="store_web" target="17" />
+      <module name="Store" target="1.8" />
+      <module name="store_dao" target="1.8" />
+      <module name="store_pojo" target="1.8" />
+      <module name="store_service" target="1.8" />
+      <module name="store_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
