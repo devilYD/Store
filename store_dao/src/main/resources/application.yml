@@ -6,3 +6,8 @@ spring:
     username: root
     password:
 
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: t_
+
